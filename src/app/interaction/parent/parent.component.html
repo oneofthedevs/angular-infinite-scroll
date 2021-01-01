@@ -1,0 +1,2 @@
+<input type="text" name="textbox1" [(ngModel)]="textbox1">
+<app-child [textInp]="textbox1" (littleEvent)="changeText($event)"></app-child>
